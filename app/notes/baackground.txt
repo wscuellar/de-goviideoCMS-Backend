@@ -1,0 +1,5 @@
+['type' => 'background', 'uuid'=> 'synthesia.baa5545d-d9b2-4082-b561-35f0e158dba5', 'name' => 'Luxury lobby',   'attribute' => 'background',    'url' => 'image/synthesia/background/baa5545d-d9b2-4082-b561-35f0e158dba5-preview.png'],
+['type' => 'background', 'uuid'=> 'pexels-videos.2759477',                          'name' => 'Tunel Motion',   'attribute' => 'video',         'url' => 'image/synthesia/background/free-video-2759477.jpeg'],
+['type' => 'background', 'uuid'=> 'synthesia.8ba65bf6-55cb-4592-bd37-c16d04ec8b40', 'name' => 'Green screen',   'attribute' => 'color',         'url' => 'image/synthesia/background/8ba65bf6-55cb-4592-bd37-c16d04ec8b40-preview.png'],
+['type' => 'background', 'uuid'=> 'synthesia.88bb3d32-912f-440e-b745-1a6cc44f11b9', 'name' => 'Mi pelicula 15', 'attribute' => 'video',         'url' => 'image/synthesia/background/42511196-02b4-4453-8d05-5d390e62d4da-thumb.jpeg'],
+['type' => 'background', 'uuid'=> 'synthesia.ed331272-7e11-4d8a-b8f6-7b1d2fbe7829', 'name' => 'Off-white',      'attribute' => 'color',         'url' => 'image/synthesia/background/ed331272-7e11-4d8a-b8f6-7b1d2fbe7829-preview.png']
