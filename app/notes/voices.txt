@@ -1,7 +1,0 @@
-['type' => 'voice', 'name' => 'Spanish (ES) - Natural',	        'attribute' => 'Male',	    'uuid' => '09a6e312-4635-4e54-876b-ba993e59aa7b', 'url' => 'media/voz/male_natural_09a6e312-4635-4e54-876b-ba993e59aa7b.mp3'],
-['type' => 'voice', 'name' => 'Spanish (ES) - Natural Deep',	'attribute' => 'Male',	    'uuid' => '410faf5b-50ff-485f-80cc-a748a8f4f83a', 'url' => 'media/voz/male_natural_09a6e312-4635-4e54-876b-ba993e59aa7b.mp3'],
-['type' => 'voice', 'name' => 'Spanish (ES) - Original',	    'attribute' => 'Male',	    'uuid' => '88f50816-481b-47d2-bd73-81858db57f5e', 'url' => 'media/voz/male_natural_original_88f50816-481b-47d2-bd73-81858db57f5e.mp3'],
-['type' => 'voice', 'name' => 'Spanish (ES) - Natural 2',	    'attribute' => 'Female',	'uuid' => '7172ad84-d429-446a-881d-e0be31de66ce', 'url' => 'media/voz/natural2_female_7172ad84-d429-446a-881d-e0be31de66ce.mp3'],
-['type' => 'voice', 'name' => 'Spanish (ES) - Natural',	        'attribute' => 'Female',	'uuid' => '86356921-e78b-4552-ae83-fc51960968de', 'url' => 'media/voz/natural_female_86356921-e78b-4552-ae83-fc51960968de.mp3'],
-['type' => 'voice', 'name' => 'Spanish (ES) - Original',	    'attribute' => 'Female',	'uuid' => 'ced2bcf3-acd2-41a2-9815-6b61ae8b61e9', 'url' => 'media/voz/original_female_ced2bcf3-acd2-41a2-9815-6b61ae8b61e9.mp3'],
-['type' => 'voice', 'name' => 'Spanish (ES) - Natural Young',   'attribute' => 'Male',      'uuid' => 'b1880919-ca15-499f-ae3f-92d31cd1b496', 'url' => 'media/voz/male_natural_young_b1880919-ca15-499f-ae3f-92d31cd1b496.mp3'],
