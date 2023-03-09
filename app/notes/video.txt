@@ -1,0 +1,71 @@
+
+
+curl https://api.synthesia.io/v2/videos  \
+  -H "Authorization: f27ca08825df962fceb1b7c4c9f03996}" \
+  -H "Content-Type: application/json" \
+  -X POST \
+  -d '{ "test": true, "title": "Video desde API_KEY!", "description": "Este es mi primer video creado desde la API!", "visibility": "public", "ctaSettings": { "label": "Click me!", "url": "https://www.synthesia.io" }, "callbackId": "email@example.com", "input": [ { "scriptText": "Video desde API_KEY!", "description": "Este es mi primer video creado desde la API!", "avatar": "isabella_costume1_cameraA", "avatarSettings": { "voice": "86356921-e78b-4552-ae83-fc51960968de", "horizontalAlign": "center", "scale": 1.0, "style": "rectangular" },  "background": "off_white" } ], "soundtrack": "urban"}'
+
+
+  curl https://api.synthesia.io/v2/videos/fromTemplate \
+  -H "Authorization: ${API_KEY}" \
+  -H "Content-Type: application/json" \
+  -X POST \
+  -d '{"templateId": "${TEMPLATE_ID}", "templateData": {"company": "Synthesia"}}'
+
+
+  {
+  "title": "Hello, World!",
+  "description": "This is my first synthetic video, made with the Synthesia API!",
+  "visibility": "public",
+  "templateId":"1234-...",
+  "templateData": {
+    "name": "John",
+    "background":"https://...",
+    "logo":"1234-..."
+  },
+  "test": true,
+  "callbackId": "john@example.com",
+}
+
+
+curl https://api.synthesia.io/v2/videos/ab5164b8-0cb7-429d-96e4-8a537c7ca416 \
+  -H "Authorization: f27ca08825df962fceb1b7c4c9f03996" \
+  -X GET
+
+ab5164b8-0cb7-429d-96e4-8a537c7ca416
+
+
+{
+    "test": true,
+    "title": "Hello, World!",
+    "description": "This is my first synthetic video, made with the Synthesia API!",
+    "visibility": "public",
+    "ctaSettings": {
+        "label": "Click me!",
+        "url": "https://www.synthesia.io"
+    },
+    "callbackId": "email@example.com",
+    "input": [{
+        "scriptText": "This is my first synthetic video, made with the Synthesia API!",
+        "scriptAudio": "12345678-1234-1234-1234-123456789012",
+        "scriptLanguage": "en-US",
+        "avatar": "anna_costume1_cameraA",
+        "avatarSettings": {
+            "voice": "1364e02b-bdae-4d39-bc2d-6c4a34814968",
+            "horizontalAlign": "center",
+            "scale": 1.0,
+            "style": "rectangular",
+            "backgroundColor": "#F2F7FF",
+            "seamless": false
+        },
+        "background": "off_white",
+        "backgroundSettings": {
+            "videoSettings": {
+                "shortBackgroundContentMatchMode": "freeze",
+                "longBackgroundContentMatchMode": "trim"
+            }
+        }
+    }],
+    "soundtrack": "urban"
+}
